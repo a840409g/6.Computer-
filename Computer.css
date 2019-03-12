@@ -1,0 +1,59 @@
+*{
+	text-align: center;
+	font-family: 微軟正黑體;
+}
+body{
+	display: inline-flex;
+}
+li{
+	border-bottom: solid 1px black;
+	list-style: none;
+	text-align: left;
+	width: 90%;
+	margin-top: 5px;
+	padding: 10px;
+	position: relative;
+}
+#panel{
+	border: 1px black solid;
+	width: 600px;
+	height: 300px;
+	margin-top: 10px;
+}
+.reg{
+	list-style: none;
+	text-align: left;
+	margin-top: 5px;
+}
+.rate{
+	position: absolute;
+	left: 50px;
+}
+.unit{
+	position: absolute;
+	right: 10px;
+}
+.hei{
+	margin-left: 5px;
+}
+.wei,.BMI{
+	margin-left: 25px;
+}
+.time{
+	position: absolute;
+	right: 50px;
+}
+a{
+	position: absolute;
+	right: 20px;
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 4px;
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+	background-color: white;
+}
