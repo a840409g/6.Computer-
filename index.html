@@ -9,12 +9,21 @@
 <body>
 <div id="main">
 	<div class="btns">
-		<input type="button" value="Rate" @click="currentView = 'channel1'">
-		<input type="button" value="BMI" @click="currentView = 'channel2'">
+		<input type="button" value="ToDoList" @click="currentView = 'channel1'">
+		<input type="button" value="Rate" @click="currentView = 'channel2'">
+		<input type="button" value="BMI" @click="currentView = 'channel3'">
 		<!-- <input type="button" value="chnnel3"> -->
 	</div>
 	<div id="panel">
-		<component :is="currentView"></component>
+		<component :is="currentView" 
+					:todos="todos"
+					:new-todo="newTodo"
+					:condition="condition"
+
+					:remove="removeTodo"
+					:all="allDone"
+		></component>
+		<!-- <component :is="currentView"></component> -->
 	</div>
 </div>
 

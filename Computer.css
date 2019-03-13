@@ -57,3 +57,9 @@ a:hover{
 	color: black;
 	background-color: white;
 }
+.stateClass{
+	/*border: solid 1px black;*/
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
